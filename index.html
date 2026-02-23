@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalyani - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Kalyani's Portfolio</div>
+
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="theme-toggle" id="theme-toggle">
+                🌙
+            </div>
+
+            <div class="right" id="nav-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="firstSection" id="home">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Kalyani</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+
+                    <a href="https://github.com/KalyaniGhatte" target="_blank">
+                        <button class="btn">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kalyani-ghatte" target="_blank">
+                        <button class="btn btn-outline">
+                            <i class="fa-brands fa-linkedin"></i> LinkedIn
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="profile.jpg" class="home-profile">
+            </div>
+
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="about-content">
+
+                <div class="about-text">
+                    <h2>About Me</h2>
+
+                    <p>
+                        I am a passionate <span class="highlight">Information Technology Engineering Student</span>
+                        from Prof. Ram Meghe Institute of Technology & Research Badnera, Amravati with strong interest
+                        in
+                        <span class="highlight">Software Development</span> and
+                        <span class="highlight">Web Development</span>.
+                    </p>
+
+                    <p>
+                        I have hands-on experience in
+                        <span class="highlight">Java, Python, MySQL, HTML, CSS, and JavaScript</span>.
+                        I enjoy building responsive and user-friendly applications.
+                    </p>
+
+                    <p>
+                        My goal is to become a skilled
+                        <span class="highlight">Software Developer</span>
+                        and work on innovative real-world projects.
+                    </p>
+                    <div class="about-buttons">
+                        <a href="resume.pdf" download>
+                            <button class="btn">
+                                <i class="fa-solid fa-download"></i> Download Resume
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <img src="profile.jpg" alt="Kalyani">
+                </div>
+
+            </div>
+        </section>
+        <section class="projects-section" id="projects">
+            <h2>My Projects</h2>
+
+            <div class="project-container">
+                <div class="project-card">
+                    <h3>Smart Traffic Signal System</h3>
+                    <p>AI-based traffic control system with emergency vehicle detection and smart signal management.</p>
+                    <div class="tech-stack">
+                        <span>ASP.NET(C#)</span>
+                        <span>SQL Server</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Music Player Application</h3>
+                    <p>Interactive music player with playlist management and responsive UI design.</p>
+                    <div class="tech-stack">
+                        <span>Java</span>
+                        <span>Android</span>
+                        <span>SQLite</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Coaching Class Website</h3>
+                    <p>Responsive website for student enrollment, course details, and schedule management.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Shopping Bill System</h3>
+                    <p>Advanced Java-based billing system with invoice generation and payment calculation.</p>
+                    <div class="tech-stack">
+                        <span>Adavanced Java</span>
+                        <span>Oracle</span>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <section class="skills-section" id="skills">
+        <h2>My Skills</h2>
+
+        <!-- ✅ Technical Skills -->
+        <div class="skills-container">
+            <div class="skills-box">
+                <h3>Technical Skills</h3>
+
+                <div class="skill">
+                    <p>Java</p>
+                    <div class="progress-bar">
+                        <div class="progress java"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>Python</p>
+                    <div class="progress-bar">
+                        <div class="progress python"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>MySQL</p>
+                    <div class="progress-bar">
+                        <div class="progress mysql"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>Web Development</p>
+                    <div class="progress-bar">
+                        <div class="progress web"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="skills-box">
+                <h3>Soft Skills</h3>
+
+                <div class="soft-skills-grid">
+                    <div class="soft-card">💬 Communication</div>
+                    <div class="soft-card">🤝 Teamwork</div>
+                    <div class="soft-card">🧠 Problem Solving</div>
+                    <div class="soft-card">⏰ Time Management</div>
+                    <div class="soft-card">🎯 Leadership</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="education-section" id="education">
+        <h2>My Education</h2>
+
+        <div class="education-container">
+
+            <div class="education-card">
+                <h3>Bachelor of Engineering (Information Technology)</h3>
+                <p>Direct Second Year (After Diploma)</p>
+                <p>SGBAU University</p>
+                <p><strong>CGPA:</strong> 8.1</p>
+                <span>2023 - 2026</span>
+            </div>
+
+            <div class="education-card">
+                <h3>Diploma in Computer Engineering</h3>
+                <p>Government Polytechnic, Khamgaon</p>
+                <p><strong>Percentage:</strong> 82.23%</p>
+                <span>2020 - 2023</span>
+            </div>
+
+            <div class="education-card">
+                <h3>Secondary School (10th)</h3>
+                <p>Maharashtra State Board</p>
+                <p><strong>Percentage:</strong> 91.60%</p>
+                <span>2019 - 2020</span>
+            </div>
+
+        </div>
+    </section>
+    <section class="contact-section" id="contact">
+
+        <h2>Get In Touch</h2>
+
+        <div class="contact-links">
+
+            <a href="mailto:ghattekalyani@gmail.com" class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email Me</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/kalyani-ghatte" target="_blank" class="contact-item">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="https://github.com/KalyaniGhatte" target="_blank" class="contact-item">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+            </a>
+
+        </div>
+
+        <!-- ✅ Contact Form -->
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="btn">
+                Send Message 🚀
+            </button>
+        </form>
+
+
+
+    </section>
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-about">
+                <h3>Kalyani Ghatte</h3>
+                <p>A passionate Web Developer building modern and responsive websites.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h4>Connect With Me</h4>
+                <div class="social-icons">
+                    <a href="https://github.com/KalyaniGhatte" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kalyani-ghatte" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:ghattekalyani@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Kalyani Ghatte | All Rights Reserved
+        </div>
+    </footer>
+    <button id="scrollTopBtn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
